@@ -13,15 +13,11 @@
         </DockPanel>
         <Border DockPanel.Dock="Right" Margin="5" Background="Black" Padding="2" CornerRadius="5" >
             <DockPanel Background="LightGreen" LastChildFill="False">
-                <StackPanel DockPanel.Dock="Top">
-                    <Button Content="Añadir imagen" Margin="5" Width="100"></Button>
-                    <Button Content="Eliminar imagen" Margin="5" Width="100"></Button>
-                    <Button Content="Eliminar todas" Margin="5" Width="100"></Button>
-                </StackPanel>
-                <StackPanel DockPanel.Dock="Bottom">
-                    <Button Content="Recortar" Margin="5" Width="100"/>
-                    <Button  Content="Rotar" Margin="5" Width="100"/>
-                </StackPanel>
+                <Button Content="Añadir imagen" DockPanel.Dock="Top" Margin="5" Width="100"/>
+                <Button Content="Eliminar imagen" DockPanel.Dock="Top" Margin="5" Width="100"/>
+                <Button Content="Eliminar todas" DockPanel.Dock="Top" Margin="5" Width="100"/>
+                <Button Content="Recortar" DockPanel.Dock="Bottom" Margin="5" Width="100"/>
+                <Button  Content="Rotar" DockPanel.Dock="Bottom" Margin="5" Width="100"/>
             </DockPanel>
         </Border>
         <StackPanel>
